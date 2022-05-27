@@ -59,7 +59,7 @@ public class Server {
         } catch (RuntimeException e) {
             System.exit(1);
         }
-        System.out.println("Server started, version 0.16-SNAPSHOT");
+        System.out.println("Server started, version 0.16-iqmessenger");
         //Bind a shutdown hook
         Runtime.getRuntime().addShutdownHook(new Thread(server::stopServer));
     }
